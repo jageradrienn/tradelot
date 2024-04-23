@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+@import "./base.css";
+
+@tailwind base;
+@tailwind components;
+
+
+@layer {
+  #app {
+    @apply font-Inter text-russianViolet;
+  }
+
+
+  body::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+    @apply rounded-sm bg-indigo-electric;
+  }
+
+  .sidebar-nav {
+    @apply max-w-[70px] mdlg:max-w-[250px] truncate;
+  }
+
+  .nav-transform {
+    transition: all 0.6s ease-in;
+  }
+
+  .popup-sidebar {
+    @apply max-w-[250px];
+  }
+
+  .content {
+    transition: all 0.6s ease-in-out;
+    transition-delay: 0.25s;
+    @apply pl-[70px] md:pl-[250px] flex flex-col flex-1;
+  }
+
+  .pl-close {
+    @apply pl-[70px];
+  }
+
+  .settings {
+    @apply flex flex-col justify-center items-start gap-5 px-8 pt-32 pb-16;
+  }
+
+  @media (max-height: 1050px) {
+    .settings {
+      @apply h-fit justify-start
+    }
+  }
+
+}
+
+.modal-overlay {
+  @apply fixed z-30 inset-0 bg-black bg-opacity-30 flex items-center;
+}
+
+.modal-overlay::-webkit-scrollbar {
+  width: 5px;
+}
+
+.modal-overlay::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  @apply rounded-sm bg-indigo-electric;
+}
+
+.popupDiv {
+  @apply z-40 fixed top-0 translate-x-[35px] sm:top-1/2 sm:-translate-y-1/2 sm:translate-x-[70px] mdlg:translate-x-[260px] mx-[calc((100vw-320px)/2)] xs:mx-[calc((100vw-390px)/2)] sm:mx-[calc((100vw-570px)/2)] mdlg:mx-[calc((100vw-920px)/2)] lg:mx-[calc((100vw-970px)/2)] xl:mx-[calc((100vw-1050px)/2)] bg-white shadow-lg p-3 md:p-8 flex flex-col w-[250px] xs:w-[320px] sm:w-[500px] mdlg:w-[650px] lg:w-[700px] xl:w-[780px];
+}
+
+
+@media (max-height: 641px) {
+  .popupDiv {
+    @apply h-[90vh] sm:-translate-y-2/4;
+  }
+}
+
+.popupDiv::-webkit-scrollbar {
+  width: 5px;
+}
+
+.popupDiv::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  @apply rounded-sm bg-indigo-electric;
+}
+
+.searchModal {
+  box-shadow: 0px 2px 4px -2px rgba(18, 8, 63, 0.02), 0px 4px 4px 0px rgba(0, 0, 0, 0.04);
+}
+
+.box {
+  border-radius: 3px;
+  box-shadow: 0px 2px 4px -2px rgba(79, 31, 255, 0.05), 0px 6px 10px -2px rgba(18, 8, 63, 0.05);
+}
+
+.closeSpan img {
+  @apply hover:bg-neutral-100 w-[16px] h-[16px] sm:w-[20px] sm:h-[20px];
+}
+
+@tailwind utilities;

@@ -1,0 +1,32 @@
+{
+  "name": "tradelot",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.19",
+    "@heroicons/vue": "^2.1.1",
+    "json-server": "^1.0.0-alpha.23",
+    "tailwindcss-no-scrollbar": "^1.0.1",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.34",
+    "tailwind-scrollbar": "^3.1.0",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.11",
+    "vite-plugin-copy": "^0.1.6",
+    "vite-plugin-vercel": "^6.0.0",
+    "vite-svg-loader": "^5.1.0"
+  }
+}

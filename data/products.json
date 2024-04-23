@@ -1,0 +1,164 @@
+{
+    "productsData": [
+        {
+            "id": "0",
+            "name": "Samsung Galaxy A54 A546 5G Dual Sim 8GB RAM 128GB",
+            "price": "€178,65",
+            "stock": "100",
+            "EAN": "8806094837698",
+            "SKU": "SM-A54 6BZKDE UE",
+            "region": "Asia",
+            "color": "green"
+        },
+        {
+            "id": "1",
+            "name": "NVIDIA Tesla A100 80G Deep Learning GPU Computing Graphics Card OEM Version",
+            "price": "£22,100",
+            "stock": "1",
+            "EAN": "N/A",
+            "SKU": "SM-A54 6BZKDE UE",
+            "region": "Asia",
+            "color": "N/A"
+        },
+        {
+            "id": "2",
+            "name": "Tefal Frying pan",
+            "price": "N/A",
+            "stock": "N/A",
+            "EAN": "N/A",
+            "SKU": "N/A",
+            "region": "Asia",
+            "color": "N/A"
+        },
+        {
+            "id": "3",
+            "name": "DeLonghi Vertuo Pop Yellow",
+            "price": "€178,65",
+            "stock": "47",
+            "EAN": "8806094268133",
+            "SKU": "SM-A54 6BZKDE UE",
+            "region": "Nordic",
+            "color": "N/A"
+        },
+        {
+            "id": "4",
+            "name": "AMD Ryzen 7 7800X3D (100-100000910WOF)",
+            "price": "€230",
+            "stock": "400",
+            "EAN": "8806094837698",
+            "SKU": "SM-A54 6BZKDE UE",
+            "region": "Arabic",
+            "color": "N/A"
+        },
+        {
+            "id": "5",
+            "name": "DJI Mavic 3T Thermal Enterprise",
+            "price": "€178,65",
+            "stock": "1000",
+            "EAN": "6936520823451",
+            "SKU": "SM-A54 6BZKDE UE",
+            "region": "EU",
+            "color": "N/A"
+        },
+        {
+            "id": "6",
+            "name": "DeLonghi Vertuo Pop Black",
+            "price": "€40",
+            "stock": "10000",
+            "EAN": "8806094843484",
+            "SKU": "SM-A54 6BZKDE UE",
+            "region": "JP",
+            "color": "N/A"
+        },
+        {
+            "id": "7",
+            "name": "Samsung Galaxy A54 A546 5G Dual Sim 8GB RAM 128GB Awesome Graphite",
+            "price": "€450",
+            "stock": "100",
+            "EAN": "6936520823444",
+            "SKU": "SM-A54 6BZKDE UE",
+            "region": "RU",
+            "color": "N/A"
+        },
+        {
+            "id": "0",
+            "name": "Samsung Galaxy A54 A546 5G Dual Sim 8GB RAM 128GB",
+            "price": "€178,65",
+            "stock": "100",
+            "EAN": "8806094837698",
+            "SKU": "SM-A54 6BZKDE UE",
+            "region": "Asia",
+            "color": "green"
+        },
+        {
+            "id": "1",
+            "name": "NVIDIA Tesla A100 80G Deep Learning GPU Computing Graphics Card OEM Version",
+            "price": "£22,100",
+            "stock": "1",
+            "EAN": "N/A",
+            "SKU": "SM-A54 6BZKDE UE",
+            "region": "Asia",
+            "color": "N/A"
+        },
+        {
+            "id": "2",
+            "name": "Tefal Frying pan",
+            "price": "N/A",
+            "stock": "N/A",
+            "EAN": "N/A",
+            "SKU": "N/A",
+            "region": "Asia",
+            "color": "N/A"
+        },
+        {
+            "id": "3",
+            "name": "DeLonghi Vertuo Pop Yellow",
+            "price": "€178,65",
+            "stock": "47",
+            "EAN": "8806094268133",
+            "SKU": "SM-A54 6BZKDE UE",
+            "region": "Nordic",
+            "color": "N/A"
+        },
+        {
+            "id": "4",
+            "name": "AMD Ryzen 7 7800X3D (100-100000910WOF)",
+            "price": "€230",
+            "stock": "400",
+            "EAN": "8806094837698",
+            "SKU": "SM-A54 6BZKDE UE",
+            "region": "Arabic",
+            "color": "N/A"
+        },
+        {
+            "id": "5",
+            "name": "DJI Mavic 3T Thermal Enterprise",
+            "price": "€178,65",
+            "stock": "1000",
+            "EAN": "6936520823451",
+            "SKU": "SM-A54 6BZKDE UE",
+            "region": "EU",
+            "color": "N/A"
+        },
+        {
+            "id": "6",
+            "name": "DeLonghi Vertuo Pop Black",
+            "price": "€40",
+            "stock": "10000",
+            "EAN": "8806094843484",
+            "SKU": "SM-A54 6BZKDE UE",
+            "region": "JP",
+            "color": "N/A"
+        },
+        {
+            "id": "7",
+            "name": "Samsung Galaxy A54 A546 5G Dual Sim 8GB RAM 128GB Awesome Graphite",
+            "price": "€450",
+            "stock": "100",
+            "EAN": "6936520823444",
+            "SKU": "SM-A54 6BZKDE UE",
+            "region": "RU",
+            "color": "N/A"
+        }
+    ]
+}
